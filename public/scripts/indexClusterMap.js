@@ -1,6 +1,6 @@
 mapboxgl.accessToken=mapToken;
 if (!mapboxgl.supported()) {
-    alert('Your browser does not support Mapbox GL');
+    // alert('Your browser does not support Mapbox GL');
     const hideMap=document.querySelector('#cluster-map');
     hideMap.style.display='none';
 } else {
